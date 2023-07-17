@@ -22,7 +22,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
           ]
         }
       },
-      base: './'
+      base: '/chatgpt-web/'
     }
   } else {
     return {
